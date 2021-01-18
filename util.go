@@ -1,4 +1,4 @@
-package corey
+package mogo
 
 import (
 	"github.com/risusanto/mogo/util"

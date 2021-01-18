@@ -1,4 +1,4 @@
-package corey
+package mogo
 
 import (
 	"context"
@@ -13,7 +13,7 @@ var config *Config
 var client *mongo.Client
 var db *mongo.Database
 
-// Config struct contain extra config of mgm package.
+// Config struct contain extra config.
 type Config struct {
 	// Set to 10 second (10*time.Second) for example.
 	CtxTimeout time.Duration

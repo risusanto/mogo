@@ -1,4 +1,4 @@
-package corey
+package mogo
 
 import "go.mongodb.org/mongo-driver/mongo"
 
