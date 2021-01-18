@@ -1,6 +1,6 @@
 # **MoGo**
-#### **Mongo DB wrapper for golang**
-###### Quick Start
+### **Mongo DB wrapper for golang**
+## Quick Start
 
 ### Install
 
@@ -25,6 +25,8 @@ func init() {
    }
 }
 ```
+
+
 
 Define model:
 ```go
