@@ -16,10 +16,10 @@ import "github.com/risusanto/mogo"
 
 func init() {
    // Setup mgm default config
-   var mongoConfig  corey.DBConfig
+   var mongoConfig  mogo.DBConfig
    mongoConfig.MongoURI = "mongodb://root:12345@localhost:27017"
    mongoConfig.DBName = "mogo_db"
-   _,_,err := corey.NewConnection(mongoConfig)
+   _,_,err := mogo.NewConnection(mongoConfig)
    if err != nil{
      panic(err)
    }
@@ -31,7 +31,7 @@ func init() {
 Define model:
 ```go
 type Podcast struct {
-    corey.BaseModel		  	  `bson:",inline"`
+    mogo.BaseModel		  	  `bson:",inline"`
     Title  string             `json:"title" bson:"title,omitempty"`
     Author string             `json:"author" bson:"author,omitempty"`
 }
