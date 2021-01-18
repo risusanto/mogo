@@ -1,7 +1,7 @@
 package corey
 
 import (
-	"github.com/risusanto/corey/v1/util"
+	"github.com/risusanto/mogo/util"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"reflect"
 	"regexp"

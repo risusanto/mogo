@@ -2,7 +2,7 @@ package corey
 
 import (
 	"context"
-	"github.com/risusanto/corey/v1/field"
+	"github.com/risusanto/mogo/field"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

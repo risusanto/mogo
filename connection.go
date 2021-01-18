@@ -3,7 +3,7 @@ package corey
 import (
 	"context"
 	"errors"
-	"github.com/risusanto/corey/v1/util"
+	"github.com/risusanto/mogo/util"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"time"
